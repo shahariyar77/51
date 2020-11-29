@@ -1,0 +1,99 @@
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat,Philosopher,Roboto;
+    
+}
+.single-box-item{
+	background-image:url(img/team1.jpg);	
+}
+.box-bg2{
+	background-image:url(img/bg1.jpg);
+}
+.box-bg3{
+	background-image:url(img/team2.jpg);
+}
+.box-bg4{
+	background-image:url(img/team3.jpg);
+}
+.box-bg5{
+	background-image:url(img/tailor1.png);
+}
+
+/*========================   Nav manu ==================*/
+
+.section-padding {
+  padding: 80px 0;
+}
+.section-tittle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 50px;
+  font-weight: 400;
+}
+.row.nopadding .col-md-4 {
+  padding: 0;
+}
+.row.nopadding {
+  margin: 0;
+}
+.single-box-item {
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  position: relative;
+}
+.single-box-item.hlaf-size {
+  height: 300px;
+}
+.box-item-hover {
+  z-index: 1;
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  height: 90%;
+  width: 90%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.box-item-hover::after {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #333;
+  z-index: -1;
+  opacity: .8;
+}
+.box-item-table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.box-item-tablecell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+}
+.large-img {
+  font-size: 20px;
+  color: green;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.single-box-item:hover .box-item-hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+
